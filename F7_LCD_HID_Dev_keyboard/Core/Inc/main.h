@@ -405,7 +405,85 @@ extern "C"
 #define USB_HID_MODIFIER_RIGHT_SHIFT 0x20
 #define USB_HID_MODIFIER_RIGHT_ALT 0x40
 #define USB_HID_MODIFIER_RIGHT_GUI 0x80
-#define USB_HID_KEY_L 0x0F
+#define USB_HID_KEY_A 0x04          // Keyboard a and A
+#define USB_HID_KEY_B 0x05          // Keyboard b and B
+#define USB_HID_KEY_C 0x06          // Keyboard c and C
+#define USB_HID_KEY_D 0x07          // Keyboard d and D
+#define USB_HID_KEY_E 0x08          // Keyboard e and E
+#define USB_HID_KEY_F 0x09          // Keyboard f and F
+#define USB_HID_KEY_G 0x0a          // Keyboard g and G
+#define USB_HID_KEY_H 0x0b          // Keyboard h and H
+#define USB_HID_KEY_I 0x0c          // Keyboard i and I
+#define USB_HID_KEY_J 0x0d          // Keyboard j and J
+#define USB_HID_KEY_K 0x0e          // Keyboard k and K
+#define USB_HID_KEY_L 0x0f          // Keyboard l and L
+#define USB_HID_KEY_M 0x10          // Keyboard m and M
+#define USB_HID_KEY_N 0x11          // Keyboard n and N
+#define USB_HID_KEY_O 0x12          // Keyboard o and O
+#define USB_HID_KEY_P 0x13          // Keyboard p and P
+#define USB_HID_KEY_Q 0x14          // Keyboard q and Q
+#define USB_HID_KEY_R 0x15          // Keyboard r and R
+#define USB_HID_KEY_S 0x16          // Keyboard s and S
+#define USB_HID_KEY_T 0x17          // Keyboard t and T
+#define USB_HID_KEY_U 0x18          // Keyboard u and U
+#define USB_HID_KEY_V 0x19          // Keyboard v and V
+#define USB_HID_KEY_W 0x1a          // Keyboard w and W
+#define USB_HID_KEY_X 0x1b          // Keyboard x and X
+#define USB_HID_KEY_Y 0x1c          // Keyboard y and Y
+#define USB_HID_KEY_Z 0x1d          // Keyboard z and Z
+#define USB_HID_KEY_1 0x1e          // Keyboard 1 and !
+#define USB_HID_KEY_2 0x1f          // Keyboard 2 and @
+#define USB_HID_KEY_3 0x20          // Keyboard 3 and #
+#define USB_HID_KEY_4 0x21          // Keyboard 4 and $
+#define USB_HID_KEY_5 0x22          // Keyboard 5 and %
+#define USB_HID_KEY_6 0x23          // Keyboard 6 and ^
+#define USB_HID_KEY_7 0x24          // Keyboard 7 and &
+#define USB_HID_KEY_8 0x25          // Keyboard 8 and *
+#define USB_HID_KEY_9 0x26          // Keyboard 9 and (
+#define USB_HID_KEY_0 0x27          // Keyboard 0 and )
+#define USB_HID_KEY_ENTER 0x28      // Keyboard Return (ENTER)
+#define USB_HID_KEY_ESC 0x29        // Keyboard ESCAPE
+#define USB_HID_KEY_BACKSPACE 0x2a  // Keyboard DELETE (Backspace)
+#define USB_HID_KEY_TAB 0x2b        // Keyboard Tab
+#define USB_HID_KEY_SPACE 0x2c      // Keyboard Spacebar
+#define USB_HID_KEY_MINUS 0x2d      // Keyboard - and _
+#define USB_HID_KEY_EQUAL 0x2e      // Keyboard = and +
+#define USB_HID_KEY_LEFTBRACE 0x2f  // Keyboard [ and {
+#define USB_HID_KEY_RIGHTBRACE 0x30 // Keyboard ] and }
+#define USB_HID_KEY_BACKSLASH 0x31  // Keyboard \ and |
+#define USB_HID_KEY_HASHTILDE 0x32  // Keyboard Non-US # and ~
+#define USB_HID_KEY_SEMICOLON 0x33  // Keyboard ; and :
+#define USB_HID_KEY_APOSTROPHE 0x34 // Keyboard ' and "
+#define USB_HID_KEY_GRAVE 0x35      // Keyboard ` and ~
+#define USB_HID_KEY_COMMA 0x36      // Keyboard , and <
+#define USB_HID_KEY_DOT 0x37        // Keyboard . and >
+#define USB_HID_KEY_SLASH 0x38      // Keyboard / and ?
+#define USB_HID_KEY_CAPSLOCK 0x39   // Keyboard Caps Lock
+#define USB_HID_KEY_F1 0x3a         // Keyboard F1
+#define USB_HID_KEY_F2 0x3b         // Keyboard F2
+#define USB_HID_KEY_F3 0x3c         // Keyboard F3
+#define USB_HID_KEY_F4 0x3d         // Keyboard F4
+#define USB_HID_KEY_F5 0x3e         // Keyboard F5
+#define USB_HID_KEY_F6 0x3f         // Keyboard F6
+#define USB_HID_KEY_F7 0x40         // Keyboard F7
+#define USB_HID_KEY_F8 0x41         // Keyboard F8
+#define USB_HID_KEY_F9 0x42         // Keyboard F9
+#define USB_HID_KEY_F10 0x43        // Keyboard F10
+#define USB_HID_KEY_F11 0x44        // Keyboard F11
+#define USB_HID_KEY_F12 0x45        // Keyboard F12
+#define USB_HID_KEY_SYSRQ 0x46      // Keyboard Print Screen
+#define USB_HID_KEY_SCROLLLOCK 0x47 // Keyboard Scroll Lock
+#define USB_HID_KEY_PAUSE 0x48      // Keyboard Pause
+#define USB_HID_KEY_INSERT 0x49     // Keyboard Insert
+#define USB_HID_KEY_HOME 0x4a       // Keyboard Home
+#define USB_HID_KEY_PAGEUP 0x4b     // Keyboard Page Up
+#define USB_HID_KEY_DELETE 0x4c     // Keyboard Delete Forward
+#define USB_HID_KEY_END 0x4d        // Keyboard End
+#define USB_HID_KEY_PAGEDOWN 0x4e   // Keyboard Page Down
+#define USB_HID_KEY_RIGHT 0x4f      // Keyboard Right Arrow
+#define USB_HID_KEY_LEFT 0x50       // Keyboard Left Arrow
+#define USB_HID_KEY_DOWN 0x51       // Keyboard Down Arrow
+#define USB_HID_KEY_UP 0x52         // Keyboard Up Arrow
 /*
 as the macro's name says:
 the clock initialization in LCD BSP overrides & destroys
